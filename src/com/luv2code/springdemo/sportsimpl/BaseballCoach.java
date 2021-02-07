@@ -1,4 +1,6 @@
-package com.luv2code.springdemo;
+package com.luv2code.springdemo.sportsimpl;
+
+import com.luv2code.springdemo.interfaces.Coach;
 
 public class BaseballCoach implements Coach {
 
