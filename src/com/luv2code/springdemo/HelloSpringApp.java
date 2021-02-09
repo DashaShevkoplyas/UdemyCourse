@@ -16,10 +16,9 @@ public class HelloSpringApp {
 
 		// call methods on the bean
 		System.out.println("From Spring: " + theCoach.getDailyWorkout());
-		
-		theCoach = context.getBean("myDanceCoach", Coach.class);
-		
-		System.out.println("From Spring: " + theCoach.getDailyWorkout());
+
+		// call another on the bean
+		System.out.println("From Spring: " + theCoach.getDailyFortune());
 
 		// close context
 		context.close();
